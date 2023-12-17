@@ -1,0 +1,23 @@
+<html>
+	<head>
+	</head>
+<body>
+	<ul>
+		<li>
+			<a class="vpm" data-path="/AzuriteLab/VRCHierarchyHighlighter/vpm.json">AzuriteLab/VRCHierarchyHighlighter</a>
+		</li>
+	</ul>
+	<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			const base = location.href;
+			document.querySelectorAll('.vpm').forEach((a) => {
+				const path = a.dataset.path;
+				if (path) {
+					const url = new URL(path, base);
+					a.href = `vcc://vpm/addRepo?url=${url}`
+				}
+			});
+		});
+	</script>
+</body>
+</html>

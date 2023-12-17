@@ -1,0 +1,16 @@
+{
+  "name": "VRCHierarchyHighlighter",
+  "id": "com.github.azuritelab",
+  "url": "https://github.com/AzuriteLab/VRCHierarchyHighlighter",
+  "author": "AzuriteLab",
+  "packages": {
+    "com.github.azuritelab.vrchierarchyhighlighter": {
+      "versions": {
+        "v2022.04.25.1": {
+          "name": "com.github.azuritelab.vrchierarchyhighlighter",
+          "url" : "https://github.com/AzuriteLab/VRCHierarchyHighlighter/archive/refs/tags/v2022.04.25.1.zip"
+        }
+      }
+    }
+  }
+}

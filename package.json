@@ -1,0 +1,25 @@
+{
+  "name": "vrchat-vpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamakiii/vrchat-vpm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamakiii/vrchat-vpm/issues"
+  },
+  "homepage": "https://github.com/tamakiii/vrchat-vpm#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
